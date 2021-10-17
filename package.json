@@ -11,11 +11,14 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
+  "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "netlify deploy",
+    "deploy-prod": "netlify deploy --prod"
   },
   "eslintConfig": {
     "extends": [
